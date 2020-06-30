@@ -25,15 +25,16 @@ h2{
     width: 100%;
 }
 .top-banner{
-    background-image: url(top-banner.png );
+    background-image: url("top-banner.png" );
     background-repeat: no-repeat;
 }
-.last-banner{
-    background-image: url(dream-bg.png);
+.middle-banner{
+    background-image: url("dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 
 }
+
 section{
     height: 500px ;
     padding-bottom: 150px;
@@ -70,4 +71,31 @@ p{
     margin-left:5%;
     padding-left:2%;
     float: left;
+}
+.events{
+    margin-left: 120px;
+}
+.lastbox{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 60%;
+}
+.last-banner{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#australia{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#bangladesh{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
