@@ -5,9 +5,15 @@ body{
 .highlight{
     color: brown;
 }
+p{
+    color: dimgray;
+}
 
 h1{
     font-size: 60px;
+}
+h2{
+    font-size: 50px;
 }
 .half{
     width: 40%;
@@ -22,8 +28,19 @@ h1{
     background-image: url(top-banner.png );
     background-repeat: no-repeat;
 }
+.last-banner{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
 section{
-    height: 500px;
+    height: 500px ;
+    padding-bottom: 150px;
+    
+}
+p{
+    margin-bottom: 40px;
 }
 .link-button{
     text-decoration: none;
@@ -32,14 +49,25 @@ section{
     border-radius: 5px;
     color: whitesmoke;
     font-weight: 700;
+    
 }
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
 
 .bottom-half img{
     width: 100%;
+    float: right;
 }
 .bottom-half{
     width: 40%;
-    float: right;
-    margin-right: 5%;
-    padding-right: 2%;
+    margin-left:5%;
+    padding-left:2%;
+    float: left;
 }
