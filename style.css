@@ -1,0 +1,19 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.highlight{
+    color: brown;
+}
+
+h1{
+    font-size: 60px;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
