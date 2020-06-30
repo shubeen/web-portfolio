@@ -1,5 +1,6 @@
 body{
     font-family: 'Dosis', sans-serif;
+    margin: 0px;
 }
 .highlight{
     color: brown;
@@ -16,4 +17,29 @@ h1{
 }
 .half img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(top-banner.png );
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.bottom-half img{
+    width: 100%;
+}
+.bottom-half{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
 }
